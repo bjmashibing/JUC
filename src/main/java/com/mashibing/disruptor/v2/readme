@@ -1,0 +1,4 @@
+修改LongEventProducer
+将事件的发布过程封装到EventTranslator
+减少了对于ringbuffer的直接操作
+同时可以将Translator单独出来，方便进行单元测试
