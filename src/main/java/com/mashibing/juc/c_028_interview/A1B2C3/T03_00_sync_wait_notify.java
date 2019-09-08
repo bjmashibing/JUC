@@ -47,9 +47,9 @@ public class T03_00_sync_wait_notify {
         new Thread(()->{
 
             synchronized (o) {
-                //latch.countDown()
                 for(char c : aC) {
                     System.out.print(c);
+                    //latch.countDown()
                     t2Started = true;
                     try {
                         o.notify();

@@ -19,6 +19,7 @@ public class T02_00_sync_wait_notify {
                         e.printStackTrace();
                     }
                 }
+
                 o.notify(); //必须，否则无法停止程序
             }
 
@@ -35,6 +36,7 @@ public class T02_00_sync_wait_notify {
                         e.printStackTrace();
                     }
                 }
+
                 o.notify();
             }
         }, "t2").start();

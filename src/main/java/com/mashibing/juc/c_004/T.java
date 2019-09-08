@@ -10,7 +10,7 @@ public class T {
 
 	private static int count = 10;
 	
-	public synchronized static void m() { //这里等同于synchronized(T.class)
+	public synchronized static void m() { //这里等同于synchronized(FineCoarseLock.class)
 		count--;
 		System.out.println(Thread.currentThread().getName() + " count = " + count);
 	}

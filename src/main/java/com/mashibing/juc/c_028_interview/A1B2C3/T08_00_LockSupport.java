@@ -1,10 +1,10 @@
 package com.mashibing.juc.c_028_interview.A1B2C3;
 
 
-import java.io.IOException;
-import java.io.PipedInputStream;
-import java.io.PipedOutputStream;
 import java.util.concurrent.locks.LockSupport;
+
+//Locksupport park 当前线程阻塞（停止）
+//unpark(Thread t)
 
 public class T08_00_LockSupport {
 
@@ -19,8 +19,8 @@ public class T08_00_LockSupport {
 
                 for(char c : aI) {
                     System.out.print(c);
-                    LockSupport.unpark(t2);
-                    LockSupport.park();
+                    LockSupport.unpark(t2); //叫醒T2
+                    LockSupport.park(); //T1阻塞
                 }
 
         }, "t1");
@@ -28,9 +28,9 @@ public class T08_00_LockSupport {
         t2 = new Thread(() -> {
 
             for(char c : aC) {
-                LockSupport.park();
+                LockSupport.park(); //t2阻塞
                 System.out.print(c);
-                LockSupport.unpark(t1);
+                LockSupport.unpark(t1); //叫醒t1
             }
 
         }, "t2");
