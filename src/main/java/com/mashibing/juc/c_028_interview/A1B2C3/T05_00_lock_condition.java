@@ -1,3 +1,6 @@
+/*
+Condition本质是锁资源上不同的等待队列
+ */
 package com.mashibing.juc.c_028_interview.A1B2C3;
 
 

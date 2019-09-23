@@ -6,7 +6,7 @@
  * 
  * @author mashibing
  */
-package com.mashibing.juc.c_021;
+package com.mashibing.juc.c_021_01_interview;
 
 import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;

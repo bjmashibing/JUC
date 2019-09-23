@@ -16,14 +16,14 @@
  * 整个通信过程比较繁琐
  * @author mashibing
  */
-package com.mashibing.juc.c_020_Interview;
+package com.mashibing.juc.c_020_01_Interview;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class MyContainer4 {
+public class T04_NotifyFreeLock {
 
 	//添加volatile，使t2能够得到通知
 	volatile List lists = new ArrayList();
@@ -37,7 +37,7 @@ public class MyContainer4 {
 	}
 	
 	public static void main(String[] args) {
-		MyContainer4 c = new MyContainer4();
+		T04_NotifyFreeLock c = new T04_NotifyFreeLock();
 		
 		final Object lock = new Object();
 		

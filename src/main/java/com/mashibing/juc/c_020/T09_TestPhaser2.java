@@ -8,6 +8,7 @@ public class T09_TestPhaser2 {
     static Random r = new Random();
     static MarriagePhaser phaser = new MarriagePhaser();
 
+
     static void milliSleep(int milli) {
         try {
             TimeUnit.MILLISECONDS.sleep(milli);
@@ -16,18 +17,13 @@ public class T09_TestPhaser2 {
         }
     }
 
-
-
     public static void main(String[] args) {
 
         phaser.bulkRegister(7);
 
         for(int i=0; i<5; i++) {
-            final int nameIndex = i;
+
             new Thread(new Person("p" + i)).start();
-
-
-
         }
 
         new Thread(new Person("ÐÂÀÉ")).start();
@@ -99,6 +95,7 @@ public class T09_TestPhaser2 {
                 phaser.arriveAndAwaitAdvance();
             } else {
                 phaser.arriveAndDeregister();
+                //phaser.register()
             }
         }
 

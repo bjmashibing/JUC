@@ -13,14 +13,14 @@
  * 想想这是为什么？
  * @author mashibing
  */
-package com.mashibing.juc.c_020_Interview;
+package com.mashibing.juc.c_020_01_Interview;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class MyContainer3 { //wait notify
+public class T03_NotifyHoldingLock { //wait notify
 
 	//添加volatile，使t2能够得到通知
 	volatile List lists = new ArrayList();
@@ -34,7 +34,7 @@ public class MyContainer3 { //wait notify
 	}
 	
 	public static void main(String[] args) {
-		MyContainer3 c = new MyContainer3();
+		T03_NotifyHoldingLock c = new T03_NotifyHoldingLock();
 		
 		final Object lock = new Object();
 		

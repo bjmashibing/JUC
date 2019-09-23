@@ -3,22 +3,19 @@
  * 实现一个容器，提供两个方法，add，size
  * 写两个线程，线程1添加10个元素到容器中，线程2实现监控元素的个数，当个数到5个时，线程2给出提示并结束
  * 
- * 给lists添加volatile之后，t2能够接到通知，但是，t2线程的死循环很浪费cpu，如果不用死循环，
- * 而且，如果在if 和 break之间被别的线程打断，得到的结果也不精确，
- * 该怎么做呢？
+ * 分析下面这个程序，能完成这个功能吗？
  * @author mashibing
  */
-package com.mashibing.juc.c_020_Interview;
+package com.mashibing.juc.c_020_01_Interview;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class MyContainer2 {
+public class T01_WithoutVolatile {
 
-	//添加volatile，使t2能够得到通知
-	volatile List lists = new LinkedList();
+	List lists = new ArrayList();
 
 	public void add(Object o) {
 		lists.add(o);
@@ -27,13 +24,10 @@ public class MyContainer2 {
 	public int size() {
 		return lists.size();
 	}
-
-
-
-
+	
 	public static void main(String[] args) {
+		T01_WithoutVolatile c = new T01_WithoutVolatile();
 
-		MyContainer2 c = new MyContainer2();
 		new Thread(() -> {
 			for(int i=0; i<10; i++) {
 				c.add(new Object());

@@ -45,7 +45,7 @@ public class T09_00_BlockingQueue {
                 }
             }
 
-        }, "t1").start();
+        }, "t2").start();
 
 
     }

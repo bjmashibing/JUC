@@ -12,7 +12,6 @@ public class T06_00_cas {
         char[] aI = "1234567".toCharArray();
         char[] aC = "ABCDEFG".toCharArray();
 
-
         new Thread(() -> {
 
             for (char c : aI) {
