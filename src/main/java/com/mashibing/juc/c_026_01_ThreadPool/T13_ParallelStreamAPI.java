@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class T14_ParallelStreamAPI {
+public class T13_ParallelStreamAPI {
 	public static void main(String[] args) {
 		List<Integer> nums = new ArrayList<>();
 		Random r = new Random();
@@ -20,7 +20,7 @@ public class T14_ParallelStreamAPI {
 		// π”√parallel stream api
 		
 		start = System.currentTimeMillis();
-		nums.parallelStream().forEach(T14_ParallelStreamAPI::isPrime);
+		nums.parallelStream().forEach(T13_ParallelStreamAPI::isPrime);
 		end = System.currentTimeMillis();
 		
 		System.out.println(end - start);

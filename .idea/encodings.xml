@@ -56,9 +56,8 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T04_Executors.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T05_ThreadPool.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T06_00_Future.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T09_SingleThreadPool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T07_SingleThreadPool.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T10_ScheduledPool.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T13_ThreadPoolExecutor.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T14_ParallelStreamAPI.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" charset="GBK" />
   </component>
 </project>

@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class T07_ParallelComputing {
+public class T09_FixedThreadPool {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		long start = System.currentTimeMillis();
 		getPrime(1, 200000); 
