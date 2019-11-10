@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class T05_00_lock_condition {
+public class T09_00_lock_condition {
 
     public static void main(String[] args) {
 

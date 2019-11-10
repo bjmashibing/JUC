@@ -1,7 +1,7 @@
 package com.mashibing.juc.c_026_00_interview.A1B2C3;
 
 
-public class T03_00_sync_wait_notify {
+public class T07_00_sync_wait_notify {
 
     private static volatile boolean t2Started = false;
 

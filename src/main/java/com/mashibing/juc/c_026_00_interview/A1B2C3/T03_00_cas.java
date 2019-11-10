@@ -1,7 +1,7 @@
 package com.mashibing.juc.c_026_00_interview.A1B2C3;
 
 
-public class T06_00_cas {
+public class T03_00_cas {
 
     enum ReadyToRun {T1, T2}
 

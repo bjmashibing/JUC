@@ -6,7 +6,7 @@ import java.util.concurrent.locks.LockSupport;
 //Locksupport park 当前线程阻塞（停止）
 //unpark(Thread t)
 
-public class T08_00_LockSupport {
+public class T02_00_LockSupport {
 
 
     static Thread t1 = null, t2 = null;

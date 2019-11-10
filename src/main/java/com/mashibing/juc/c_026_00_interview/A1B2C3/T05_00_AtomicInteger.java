@@ -3,7 +3,7 @@ package com.mashibing.juc.c_026_00_interview.A1B2C3;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class T07_00_AtomicInteger {
+public class T05_00_AtomicInteger {
 
     static AtomicInteger threadNo = new AtomicInteger(1);
 
