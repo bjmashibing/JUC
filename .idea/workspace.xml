@@ -1,19 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="2019年10月16日的更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java" afterDir="false" />
+    <list default="true" id="537745d2-fdf3-45e3-91ce-55d43dfd9027" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Disruptor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JMH.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T03_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T07_00_sync_wait_notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T04_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T05_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_cas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T03_00_cas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T07_00_AtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T05_00_AtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_LockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_BlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T04_00_BlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/JustTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/LongEventProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/LongEventProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/LongEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/disruptor/v4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread$T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T01_WhatIsThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T02_HowToCreateThread$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T03_Sleep_Yield_Join.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_000/T04_ThreadState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_002/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_003/T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_005/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_007/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_008/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_009/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_010/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_011/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T03________VolatileReference2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T04_VolatileNotSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_012_Volatile/T05_VolatileVsSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_016_LockOptimization/FineCoarseLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_017_MoreAboutSync/SyncSameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T01_AtomicInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe$M.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T01_ReentrantLock1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T02_ReentrantLock2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T03_ReentrantLock3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T06_TestCountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T08_TestPhaser$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2$MarriagePhaser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T09_TestPhaser2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T10_TestReadWriteLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T11_TestSemaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T12_TestExchanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020/T13_TestLockSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_020_01_Interview/T08_Semaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_01_interview/MyContainer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_023/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T01_ConcurrentMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T02_CopyOnWriteList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T03_SynchronizedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T04_ConcurrentQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue$MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_025/T07_DelayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T01_Future.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/juc/c_027_future_to_loom/T02_ListenableFuture$2.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,92 +95,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T05_00_AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T07_00_sync_wait_notify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T10_00_PipedStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <entry file="file://$PROJECT_DIR$/Disruptor.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -152,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020/T13_TestLockSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.java" />
@@ -203,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java" />
       </list>
     </option>
   </component>
@@ -233,8 +219,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="886" />
+    <option name="x" value="1071" />
+    <option name="y" value="993" />
     <option name="width" value="1932" />
     <option name="height" value="1092" />
   </component>
@@ -244,7 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="NBKnowledgePane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,74 +239,18 @@
               <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JUC" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_028_FalseSharing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JUC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JUC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="c_029_WriteCombining" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="NBKnowledgePane" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19058296" />
@@ -358,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WriteCombining">
+  <component name="RunManager" selected="Application.Tets">
     <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_028_FalseSharing.T01_CacheLinePadding" />
       <module name="JUC" />
@@ -385,8 +316,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T10_00_PipedStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T10_00_PipedStream" />
+    <configuration name="T13_TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T13_TransferQueue" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -398,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T13_TransferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T13_TransferQueue" />
+    <configuration name="Tets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.Tets" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_026_00_interview.A1B2C3.*" />
+          <option name="PATTERN" value="com.mashibing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T10_00_PipedStream" />
       <item itemvalue="Application.T13_TransferQueue" />
       <item itemvalue="Application.T01_CacheLinePadding" />
       <item itemvalue="Application.T02_CacheLinePadding" />
       <item itemvalue="Application.WriteCombining" />
+      <item itemvalue="Application.Tets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tets" />
         <item itemvalue="Application.WriteCombining" />
         <item itemvalue="Application.T02_CacheLinePadding" />
         <item itemvalue="Application.T01_CacheLinePadding" />
         <item itemvalue="Application.T13_TransferQueue" />
-        <item itemvalue="Application.T10_00_PipedStream" />
       </list>
     </recent_temporary>
   </component>
@@ -497,19 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571235524344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2019年11月10日的更新">
+      <created>1573357300351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573357300351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="591" width="1288" height="728" extended-state="0" />
+    <frame x="714" y="662" width="1288" height="728" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.33379695" side_tool="true" weight="0.21834862" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.35609755" />
-      <window_info id="Structure" order="3" sideWeight="0.2195946" side_tool="true" weight="0.21009772" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.18699187" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50030583" side_tool="true" weight="0.2584885" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.15978177" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.15939598" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32685512" />
@@ -528,19 +465,19 @@
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="7" weight="0.44060388" />
+      <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" visible="true" weight="0.20975609" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" sideWeight="0.33379695" side_tool="true" weight="0.21834862" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.25162867" />
-      <window_info id="Structure" order="3" sideWeight="0.2195946" side_tool="true" weight="0.21009772" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7804054" visible="true" weight="0.18699187" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50030583" side_tool="true" weight="0.2584885" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.15978177" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.15939598" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32685512" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4996942" weight="0.45945945" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4996942" weight="0.58557045" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.8074324" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -555,6 +492,7 @@
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="7" weight="0.44060388" />
+      <window_info anchor="right" id="Structure" order="8" sideWeight="0.2195946" visible="true" weight="0.20975609" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
@@ -564,7 +502,8 @@
     <MESSAGE value="2019年9月29日的更新" />
     <MESSAGE value="2019年10月11日的更新" />
     <MESSAGE value="2019年10月16日的更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年10月16日的更新" />
+    <MESSAGE value="2019年11月10日的更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年11月10日的更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,60 +526,16 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>807</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T05_00_HelloThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T02_ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -959,17 +854,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="915">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="207">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="344" column="23" selection-start-line="344" selection-start-column="23" selection-end-line="344" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="517" column="47" selection-start-line="517" selection-start-column="47" selection-end-line="517" selection-end-column="47" />
+          <folding>
+            <element signature="e#33317#33318#0" expanded="true" />
+            <element signature="e#33411#33412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="181" column="57" lean-forward="true" selection-start-line="181" selection-start-column="36" selection-end-line="181" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="2457" column="25" selection-start-line="2457" selection-start-column="25" selection-end-line="2457" selection-end-column="25" />
+          <folding>
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/Tets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1030,7 +980,6 @@
             <option name="proportions">
               <list>
                 <option value="0.19058296" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
