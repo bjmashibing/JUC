@@ -3,7 +3,7 @@ package com.mashibing.juc.c_026_00_interview.A1B2C3;
 
 import java.util.concurrent.locks.LockSupport;
 
-//Locksupport park 当前线程阻塞（停止）
+//Locksupport park 褰撳墠绾跨▼闃诲锛堝仠姝級
 //unpark(Thread t)
 
 public class T02_00_LockSupport {
@@ -19,8 +19,8 @@ public class T02_00_LockSupport {
 
                 for(char c : aI) {
                     System.out.print(c);
-                    LockSupport.unpark(t2); //叫醒T2
-                    LockSupport.park(); //T1阻塞
+                    LockSupport.unpark(t2); //鍙啋T2
+                    LockSupport.park(); //T1闃诲
                 }
 
         }, "t1");
@@ -28,9 +28,9 @@ public class T02_00_LockSupport {
         t2 = new Thread(() -> {
 
             for(char c : aC) {
-                LockSupport.park(); //t2阻塞
+                LockSupport.park(); //t2闃诲
                 System.out.print(c);
-                LockSupport.unpark(t1); //叫醒t1
+                LockSupport.unpark(t1); //鍙啋t1
             }
 
         }, "t2");

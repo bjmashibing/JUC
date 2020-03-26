@@ -1,7 +1,7 @@
 /**
- * 假设你能够提供一个服务
- * 这个服务查询各大电商网站同一类产品的价格并汇总展示
- * @author 马士兵 http://mashibing.com
+ * 鍋囪浣犺兘澶熸彁渚涗竴涓湇鍔�
+ * 杩欎釜鏈嶅姟鏌ヨ鍚勫ぇ鐢靛晢缃戠珯鍚屼竴绫讳骇鍝佺殑浠锋牸骞舵眹鎬诲睍绀�
+ * @author 椹＋鍏� http://mashibing.com
  */
 
 package com.mashibing.juc.c_026_01_ThreadPool;

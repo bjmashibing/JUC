@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.LockSupport;
 
 public class T08_Semaphore {
-    // 添加volatile，使t2能够得到通知
+    // 娣诲姞volatile锛屼娇t2鑳藉寰楀埌閫氱煡
     volatile List lists = new ArrayList();
 
     public void add(Object o) {
@@ -59,7 +59,7 @@ public class T08_Semaphore {
         t2 = new Thread(() -> {
             try {
                 s.acquire();
-                System.out.println("t2 结束");
+                System.out.println("t2 缁撴潫");
                 s.release();
             } catch (InterruptedException e) {
                 e.printStackTrace();

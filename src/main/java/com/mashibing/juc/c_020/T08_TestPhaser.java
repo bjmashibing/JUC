@@ -45,14 +45,14 @@ public class T08_TestPhaser {
 
             switch (phase) {
                 case 0:
-                    System.out.println("ËùÓĞÈËµ½ÆëÁË£¡");
+                    System.out.println("æ‰€æœ‰äººåˆ°é½äº†ï¼");
                     return false;
                 case 1:
-                    System.out.println("ËùÓĞÈË³ÔÍêÁË£¡");
+                    System.out.println("æ‰€æœ‰äººåƒå®Œäº†ï¼");
                     return false;
                 case 2:
-                    System.out.println("ËùÓĞÈËÀë¿ªÁË£¡");
-                    System.out.println("»éÀñ½áÊø£¡");
+                    System.out.println("æ‰€æœ‰äººç¦»å¼€äº†ï¼");
+                    System.out.println("å©šç¤¼ç»“æŸï¼");
                     return true;
                 default:
                     return true;
@@ -70,17 +70,17 @@ public class T08_TestPhaser {
 
         public void arrive() {
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s µ½´ïÏÖ³¡£¡\n", name);
+            System.out.printf("%s åˆ°è¾¾ç°åœºï¼\n", name);
         }
 
         public void eat() {
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s ³ÔÍê!\n", name);
+            System.out.printf("%s åƒå®Œ!\n", name);
         }
 
         public void leave() {
             milliSleep(r.nextInt(1000));
-            System.out.printf("%s Àë¿ª£¡\n", name);
+            System.out.printf("%s ç¦»å¼€ï¼\n", name);
         }
 
     }

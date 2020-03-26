@@ -1,6 +1,6 @@
 /**
- * Ò»¸öÍ¬²½·½·¨¿ÉÒÔµ÷ÓÃÁíÍâÒ»¸öÍ¬²½·½·¨£¬Ò»¸öÏß³ÌÒÑ¾­ÓµÓÐÄ³¸ö¶ÔÏóµÄËø£¬ÔÙ´ÎÉêÇëµÄÊ±ºòÈÔÈ»»áµÃµ½¸Ã¶ÔÏóµÄËø.
- * Ò²¾ÍÊÇËµsynchronized»ñµÃµÄËøÊÇ¿ÉÖØÈëµÄ
+ * ä¸€ä¸ªåŒæ­¥æ–¹æ³•å¯ä»¥è°ƒç”¨å¦å¤–ä¸€ä¸ªåŒæ­¥æ–¹æ³•ï¼Œä¸€ä¸ªçº¿ç¨‹å·²ç»æ‹¥æœ‰æŸä¸ªå¯¹è±¡çš„é”ï¼Œå†æ¬¡ç”³è¯·çš„æ—¶å€™ä»ç„¶ä¼šå¾—åˆ°è¯¥å¯¹è±¡çš„é”.
+ * ä¹Ÿå°±æ˜¯è¯´synchronizedèŽ·å¾—çš„é”æ˜¯å¯é‡å…¥çš„
  * @author mashibing
  */
 package com.mashibing.juc.c_009;

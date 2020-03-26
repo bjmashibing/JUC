@@ -1,6 +1,6 @@
 /**
- * synchronized¹Ø¼ü×Ö
- * ¶ÔÄ³¸ö¶ÔÏó¼ÓËø
+ * synchronizedå…³é”®å­—
+ * å¯¹æŸä¸ªå¯¹è±¡åŠ é”
  * @author mashibing
  */
 
@@ -11,7 +11,7 @@ public class T {
 	private int count = 10;
 	
 	public void m() {
-		synchronized(this) { //ÈÎºÎÏß³ÌÒªÖ´ĞĞÏÂÃæµÄ´úÂë£¬±ØĞëÏÈÄÃµ½thisµÄËø
+		synchronized(this) { //ä»»ä½•çº¿ç¨‹è¦æ‰§è¡Œä¸‹é¢çš„ä»£ç ï¼Œå¿…é¡»å…ˆæ‹¿åˆ°thisçš„é”
 			count--;
 			System.out.println(Thread.currentThread().getName() + " count = " + count);
 		}

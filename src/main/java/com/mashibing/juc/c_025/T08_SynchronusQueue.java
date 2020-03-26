@@ -3,7 +3,7 @@ package com.mashibing.juc.c_025;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.SynchronousQueue;
 
-public class T08_SynchronusQueue { //ÈİÁ¿Îª0
+public class T08_SynchronusQueue { //å®¹é‡ä¸º0
 	public static void main(String[] args) throws InterruptedException {
 		BlockingQueue<String> strs = new SynchronousQueue<>();
 		
@@ -15,7 +15,7 @@ public class T08_SynchronusQueue { //ÈİÁ¿Îª0
 			}
 		}).start();
 
-		strs.put("aaa"); //×èÈûµÈ´ıÏû·ÑÕßÏû·Ñ
+		strs.put("aaa"); //é˜»å¡ç­‰å¾…æ¶ˆè´¹è€…æ¶ˆè´¹
 		//strs.put("bbb");
 		//strs.add("aaa");
 		System.out.println(strs.size());

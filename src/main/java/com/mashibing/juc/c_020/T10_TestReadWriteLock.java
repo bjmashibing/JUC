@@ -20,7 +20,7 @@ public class T10_TestReadWriteLock {
             lock.lock();
             Thread.sleep(1000);
             System.out.println("read over!");
-            //模拟读取操作
+            //妯℃嫙璇诲彇鎿嶄綔
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -34,7 +34,7 @@ public class T10_TestReadWriteLock {
             Thread.sleep(1000);
             value = v;
             System.out.println("write over!");
-            //模拟写操作
+            //妯℃嫙鍐欐搷浣�
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

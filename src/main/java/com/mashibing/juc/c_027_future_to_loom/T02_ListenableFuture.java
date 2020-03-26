@@ -1,5 +1,5 @@
 /**
- * 代码不好维护
+ * 浠ｇ爜涓嶅ソ缁存姢
  */
 package com.mashibing.juc.c_027_future_to_loom;
 

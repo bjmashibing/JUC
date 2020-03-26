@@ -6,7 +6,7 @@ public class T11_TestSemaphore {
     public static void main(String[] args) {
         //Semaphore s = new Semaphore(2);
         Semaphore s = new Semaphore(2, true);
-        //允许一个线程同时执行
+        //鍏佽涓�涓嚎绋嬪悓鏃舵墽琛�
         //Semaphore s = new Semaphore(1);
 
         new Thread(()->{

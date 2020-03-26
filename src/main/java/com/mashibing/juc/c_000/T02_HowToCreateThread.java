@@ -25,4 +25,4 @@ public class T02_HowToCreateThread {
 
 }
 
-//请你告诉我启动线程的三种方式 1：Thread 2: Runnable 3:Executors.newCachedThrad
+//璇蜂綘鍛婅瘔鎴戝惎鍔ㄧ嚎绋嬬殑涓夌鏂瑰紡 1锛歍hread 2: Runnable 3:Executors.newCachedThrad

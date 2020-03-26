@@ -1,18 +1,18 @@
 /**
- * reentrantlockÓÃÓÚÌæ´úsynchronized
- * ÓÉÓÚm1Ëø¶¨this,Ö»ÓĞm1Ö´ĞĞÍê±ÏµÄÊ±ºò,m2²ÅÄÜÖ´ĞĞ
- * ÕâÀïÊÇ¸´Ï°synchronized×îÔ­Ê¼µÄÓïÒå
+ * reentrantlockç”¨äºæ›¿ä»£synchronized
+ * ç”±äºm1é”å®šthis,åªæœ‰m1æ‰§è¡Œå®Œæ¯•çš„æ—¶å€™,m2æ‰èƒ½æ‰§è¡Œ
+ * è¿™é‡Œæ˜¯å¤ä¹ synchronizedæœ€åŸå§‹çš„è¯­ä¹‰
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔÍê³ÉÍ¬ÑùµÄ¹¦ÄÜ
- * ĞèÒª×¢ÒâµÄÊÇ£¬±ØĞëÒª±ØĞëÒª±ØĞëÒªÊÖ¶¯ÊÍ·ÅËø£¨ÖØÒªµÄÊÂÇéËµÈı±é£©
- * Ê¹ÓÃsynËø¶¨µÄ»°Èç¹ûÓöµ½Òì³££¬jvm»á×Ô¶¯ÊÍ·ÅËø£¬µ«ÊÇlock±ØĞëÊÖ¶¯ÊÍ·ÅËø£¬Òò´Ë¾­³£ÔÚfinallyÖĞ½øĞĞËøµÄÊÍ·Å
+ * ä½¿ç”¨reentrantlockå¯ä»¥å®ŒæˆåŒæ ·çš„åŠŸèƒ½
+ * éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œå¿…é¡»è¦å¿…é¡»è¦å¿…é¡»è¦æ‰‹åŠ¨é‡Šæ”¾é”ï¼ˆé‡è¦çš„äº‹æƒ…è¯´ä¸‰éï¼‰
+ * ä½¿ç”¨syné”å®šçš„è¯å¦‚æœé‡åˆ°å¼‚å¸¸ï¼Œjvmä¼šè‡ªåŠ¨é‡Šæ”¾é”ï¼Œä½†æ˜¯lockå¿…é¡»æ‰‹åŠ¨é‡Šæ”¾é”ï¼Œå› æ­¤ç»å¸¸åœ¨finallyä¸­è¿›è¡Œé”çš„é‡Šæ”¾
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔ½øĞĞ¡°³¢ÊÔËø¶¨¡±tryLock£¬ÕâÑùÎŞ·¨Ëø¶¨£¬»òÕßÔÚÖ¸¶¨Ê±¼äÄÚÎŞ·¨Ëø¶¨£¬Ïß³Ì¿ÉÒÔ¾ö¶¨ÊÇ·ñ¼ÌĞøµÈ´ı
+ * ä½¿ç”¨reentrantlockå¯ä»¥è¿›è¡Œâ€œå°è¯•é”å®šâ€tryLockï¼Œè¿™æ ·æ— æ³•é”å®šï¼Œæˆ–è€…åœ¨æŒ‡å®šæ—¶é—´å†…æ— æ³•é”å®šï¼Œçº¿ç¨‹å¯ä»¥å†³å®šæ˜¯å¦ç»§ç»­ç­‰å¾…
  * 
- * Ê¹ÓÃReentrantLock»¹¿ÉÒÔµ÷ÓÃlockInterruptibly·½·¨£¬¿ÉÒÔ¶ÔÏß³Ìinterrupt·½·¨×ö³öÏìÓ¦£¬
- * ÔÚÒ»¸öÏß³ÌµÈ´ıËøµÄ¹ı³ÌÖĞ£¬¿ÉÒÔ±»´ò¶Ï
+ * ä½¿ç”¨ReentrantLockè¿˜å¯ä»¥è°ƒç”¨lockInterruptiblyæ–¹æ³•ï¼Œå¯ä»¥å¯¹çº¿ç¨‹interruptæ–¹æ³•åšå‡ºå“åº”ï¼Œ
+ * åœ¨ä¸€ä¸ªçº¿ç¨‹ç­‰å¾…é”çš„è¿‡ç¨‹ä¸­ï¼Œå¯ä»¥è¢«æ‰“æ–­
  * 
- * ReentrantLock»¹¿ÉÒÔÖ¸¶¨Îª¹«Æ½Ëø
+ * ReentrantLockè¿˜å¯ä»¥æŒ‡å®šä¸ºå…¬å¹³é”
  * 
  * @author mashibing
  */
@@ -22,12 +22,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class T05_ReentrantLock5 extends Thread {
 		
-	private static ReentrantLock lock=new ReentrantLock(true); //²ÎÊıÎªtrue±íÊ¾Îª¹«Æ½Ëø£¬Çë¶Ô±ÈÊä³ö½á¹û
+	private static ReentrantLock lock=new ReentrantLock(true); //å‚æ•°ä¸ºtrueè¡¨ç¤ºä¸ºå…¬å¹³é”ï¼Œè¯·å¯¹æ¯”è¾“å‡ºç»“æœ
     public void run() {
         for(int i=0; i<100; i++) {
             lock.lock();
             try{
-                System.out.println(Thread.currentThread().getName()+"»ñµÃËø");
+                System.out.println(Thread.currentThread().getName()+"è·å¾—é”");
             }finally{
                 lock.unlock();
             }

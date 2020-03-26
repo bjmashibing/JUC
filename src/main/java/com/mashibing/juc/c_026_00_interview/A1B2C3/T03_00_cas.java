@@ -5,7 +5,7 @@ public class T03_00_cas {
 
     enum ReadyToRun {T1, T2}
 
-    static volatile ReadyToRun r = ReadyToRun.T1; //思考为什么必须volatile
+    static volatile ReadyToRun r = ReadyToRun.T1; //鎬濊�冧负浠�涔堝繀椤籿olatile
 
     public static void main(String[] args) {
 

@@ -1,12 +1,12 @@
 /**
- * ThreadLocalÏß³Ì¾Ö²¿±äÁ¿
+ * ThreadLocalçº¿ç¨‹å±€éƒ¨å˜é‡
  *
- * ThreadLocalÊÇÊ¹ÓÃ¿Õ¼ä»»Ê±¼ä£¬synchronizedÊÇÊ¹ÓÃÊ±¼ä»»¿Õ¼ä
- * ±ÈÈçÔÚhibernateÖĞsession¾Í´æÔÚÓëThreadLocalÖĞ£¬±ÜÃâsynchronizedµÄÊ¹ÓÃ
+ * ThreadLocalæ˜¯ä½¿ç”¨ç©ºé—´æ¢æ—¶é—´ï¼Œsynchronizedæ˜¯ä½¿ç”¨æ—¶é—´æ¢ç©ºé—´
+ * æ¯”å¦‚åœ¨hibernateä¸­sessionå°±å­˜åœ¨ä¸ThreadLocalä¸­ï¼Œé¿å…synchronizedçš„ä½¿ç”¨
  *
- * ÔËĞĞÏÂÃæµÄ³ÌĞò£¬Àí½âThreadLocal
+ * è¿è¡Œä¸‹é¢çš„ç¨‹åºï¼Œç†è§£ThreadLocal
  * 
- * @author ÂíÊ¿±ø
+ * @author é©¬å£«å…µ
  */
 package com.mashibing.juc.c_022_RefTypeAndThreadLocal;
 

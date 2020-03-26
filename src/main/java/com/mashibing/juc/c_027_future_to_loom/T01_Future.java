@@ -1,8 +1,8 @@
 /**
- * 使用future进行异步编程
- * 缺点：
- * 不知道何时结束
- * 阻塞获取结果
+ * 浣跨敤future杩涜寮傛缂栫▼
+ * 缂虹偣锛�
+ * 涓嶇煡閬撲綍鏃剁粨鏉�
+ * 闃诲鑾峰彇缁撴灉
  */
 
 package com.mashibing.juc.c_027_future_to_loom;

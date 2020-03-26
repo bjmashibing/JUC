@@ -1,5 +1,5 @@
 /**
- * ÈÏÊ¶Executors
+ * è®¤è¯†Executors
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 

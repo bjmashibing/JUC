@@ -1,7 +1,7 @@
 /**
- * ThreadLocalÏß³Ì¾Ö²¿±äÁ¿
+ * ThreadLocalçº¿ç¨‹å±€éƒ¨å˜é‡
  * 
- * @author ÂíÊ¿±ø
+ * @author é©¬å£«å…µ
  */
 package com.mashibing.juc.c_022_RefTypeAndThreadLocal;
 

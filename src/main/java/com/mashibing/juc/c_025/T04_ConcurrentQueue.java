@@ -21,6 +21,6 @@ public class T04_ConcurrentQueue {
 		System.out.println(strs.peek());
 		System.out.println(strs.size());
 		
-		//Ë«¶Ë¶ÓÁĞDeque
+		//åŒç«¯é˜Ÿåˆ—Deque
 	}
 }

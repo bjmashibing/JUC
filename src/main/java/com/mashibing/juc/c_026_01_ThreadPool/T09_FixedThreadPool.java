@@ -1,5 +1,5 @@
 /**
- * 线程池的概念
+ * 绾跨▼姹犵殑姒傚康
  * nasa
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
