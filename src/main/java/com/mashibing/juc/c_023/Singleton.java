@@ -1,11 +1,11 @@
 /**
- * 线程安全的单例模式：
+ * 绾跨▼瀹夊叏鐨勫崟渚嬫ā寮忥細
  * 
- * 阅读文章：http://www.cnblogs.com/xudong-bupt/p/3433643.html
+ * 闃呰鏂囩珷锛歨ttp://www.cnblogs.com/xudong-bupt/p/3433643.html
  * 
- * 更好的是采用下面的方式，既不用加锁，也能实现懒加载
+ * 鏇村ソ鐨勬槸閲囩敤涓嬮潰鐨勬柟寮忥紝鏃笉鐢ㄥ姞閿侊紝涔熻兘瀹炵幇鎳掑姞杞�
  * 
- * @author 马士兵
+ * @author 椹＋鍏�
  */
 package com.mashibing.juc.c_023;
 

@@ -1,5 +1,5 @@
 /**
- * �̳߳صĸ���
+ * 线程池的概念
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 

@@ -1,16 +1,16 @@
 /**
- * Ôø¾­µÄÃæÊÔÌâ£º£¨ÌÔ±¦£¿£©
- * ÊµÏÖÒ»¸öÈİÆ÷£¬Ìá¹©Á½¸ö·½·¨£¬add£¬size
- * Ğ´Á½¸öÏß³Ì£¬Ïß³Ì1Ìí¼Ó10¸öÔªËØµ½ÈİÆ÷ÖĞ£¬Ïß³Ì2ÊµÏÖ¼à¿ØÔªËØµÄ¸öÊı£¬µ±¸öÊıµ½5¸öÊ±£¬Ïß³Ì2¸ø³öÌáÊ¾²¢½áÊø
+ * æ›¾ç»çš„é¢è¯•é¢˜ï¼šï¼ˆæ·˜å®ï¼Ÿï¼‰
+ * å®ç°ä¸€ä¸ªå®¹å™¨ï¼Œæä¾›ä¸¤ä¸ªæ–¹æ³•ï¼Œaddï¼Œsize
+ * å†™ä¸¤ä¸ªçº¿ç¨‹ï¼Œçº¿ç¨‹1æ·»åŠ 10ä¸ªå…ƒç´ åˆ°å®¹å™¨ä¸­ï¼Œçº¿ç¨‹2å®ç°ç›‘æ§å…ƒç´ çš„ä¸ªæ•°ï¼Œå½“ä¸ªæ•°åˆ°5ä¸ªæ—¶ï¼Œçº¿ç¨‹2ç»™å‡ºæç¤ºå¹¶ç»“æŸ
  * 
- * ¸ølistsÌí¼ÓvolatileÖ®ºó£¬t2ÄÜ¹»½Óµ½Í¨Öª£¬µ«ÊÇ£¬t2Ïß³ÌµÄËÀÑ­»·ºÜÀË·Ñcpu£¬Èç¹û²»ÓÃËÀÑ­»·£¬¸ÃÔõÃ´×öÄØ£¿
+ * ç»™listsæ·»åŠ volatileä¹‹åï¼Œt2èƒ½å¤Ÿæ¥åˆ°é€šçŸ¥ï¼Œä½†æ˜¯ï¼Œt2çº¿ç¨‹çš„æ­»å¾ªç¯å¾ˆæµªè´¹cpuï¼Œå¦‚æœä¸ç”¨æ­»å¾ªç¯ï¼Œè¯¥æ€ä¹ˆåšå‘¢ï¼Ÿ
  * 
- * ÕâÀïÊ¹ÓÃwaitºÍnotify×öµ½£¬wait»áÊÍ·ÅËø£¬¶ønotify²»»áÊÍ·ÅËø
- * ĞèÒª×¢ÒâµÄÊÇ£¬ÔËÓÃÕâÖÖ·½·¨£¬±ØĞëÒª±£Ö¤t2ÏÈÖ´ĞĞ£¬Ò²¾ÍÊÇÊ×ÏÈÈÃt2¼àÌı²Å¿ÉÒÔ
+ * è¿™é‡Œä½¿ç”¨waitå’Œnotifyåšåˆ°ï¼Œwaitä¼šé‡Šæ”¾é”ï¼Œè€Œnotifyä¸ä¼šé‡Šæ”¾é”
+ * éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œè¿ç”¨è¿™ç§æ–¹æ³•ï¼Œå¿…é¡»è¦ä¿è¯t2å…ˆæ‰§è¡Œï¼Œä¹Ÿå°±æ˜¯é¦–å…ˆè®©t2ç›‘å¬æ‰å¯ä»¥
  * 
- * ÔÄ¶ÁÏÂÃæµÄ³ÌĞò£¬²¢·ÖÎöÊä³ö½á¹û
- * ¿ÉÒÔ¶Áµ½Êä³ö½á¹û²¢²»ÊÇsize=5Ê±t2ÍË³ö£¬¶øÊÇt1½áÊøÊ±t2²Å½ÓÊÕµ½Í¨Öª¶øÍË³ö
- * ÏëÏëÕâÊÇÎªÊ²Ã´£¿
+ * é˜…è¯»ä¸‹é¢çš„ç¨‹åºï¼Œå¹¶åˆ†æè¾“å‡ºç»“æœ
+ * å¯ä»¥è¯»åˆ°è¾“å‡ºç»“æœå¹¶ä¸æ˜¯size=5æ—¶t2é€€å‡ºï¼Œè€Œæ˜¯t1ç»“æŸæ—¶t2æ‰æ¥æ”¶åˆ°é€šçŸ¥è€Œé€€å‡º
+ * æƒ³æƒ³è¿™æ˜¯ä¸ºä»€ä¹ˆï¼Ÿ
  * @author mashibing
  */
 package com.mashibing.juc.c_020_01_Interview;
@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 public class T03_NotifyHoldingLock { //wait notify
 
-	//Ìí¼Óvolatile£¬Ê¹t2ÄÜ¹»µÃµ½Í¨Öª
+	//æ·»åŠ volatileï¼Œä½¿t2èƒ½å¤Ÿå¾—åˆ°é€šçŸ¥
 	volatile List lists = new ArrayList();
 
 	public void add(Object o) {
@@ -40,7 +40,7 @@ public class T03_NotifyHoldingLock { //wait notify
 		
 		new Thread(() -> {
 			synchronized(lock) {
-				System.out.println("t2Æô¶¯");
+				System.out.println("t2å¯åŠ¨");
 				if(c.size() != 5) {
 					try {
 						lock.wait();
@@ -48,7 +48,7 @@ public class T03_NotifyHoldingLock { //wait notify
 						e.printStackTrace();
 					}
 				}
-				System.out.println("t2 ½áÊø");
+				System.out.println("t2 ç»“æŸ");
 			}
 			
 		}, "t2").start();
@@ -60,7 +60,7 @@ public class T03_NotifyHoldingLock { //wait notify
 		}
 
 		new Thread(() -> {
-			System.out.println("t1Æô¶¯");
+			System.out.println("t1å¯åŠ¨");
 			synchronized(lock) {
 				for(int i=0; i<10; i++) {
 					c.add(new Object());

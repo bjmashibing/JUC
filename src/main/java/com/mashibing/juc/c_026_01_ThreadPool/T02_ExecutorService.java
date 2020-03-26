@@ -1,6 +1,6 @@
 /**
- * ÈÏÊ¶ExecutorService,ÔÄ¶ÁAPIÎÄµµ
- * ÈÏÊ¶submit·½·¨£¬À©Õ¹ÁËexecute·½·¨£¬¾ßÓÐÒ»¸ö·µ»ØÖµ
+ * è®¤è¯†ExecutorService,é˜…è¯»APIæ–‡æ¡£
+ * è®¤è¯†submitæ–¹æ³•ï¼Œæ‰©å±•äº†executeæ–¹æ³•ï¼Œå…·æœ‰ä¸€ä¸ªè¿”å›žå€¼
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 

@@ -1,11 +1,11 @@
 /**
- * reentrantlockÓÃÓÚÌæ´úsynchronized
- * ÓÉÓÚm1Ëø¶¨this,Ö»ÓÐm1Ö´ÐÐÍê±ÏµÄÊ±ºò,m2²ÅÄÜÖ´ÐÐ
- * ÕâÀïÊÇ¸´Ï°synchronized×îÔ­Ê¼µÄÓïÒå
+ * reentrantlockç”¨äºŽæ›¿ä»£synchronized
+ * ç”±äºŽm1é”å®šthis,åªæœ‰m1æ‰§è¡Œå®Œæ¯•çš„æ—¶å€™,m2æ‰èƒ½æ‰§è¡Œ
+ * è¿™é‡Œæ˜¯å¤ä¹ synchronizedæœ€åŽŸå§‹çš„è¯­ä¹‰
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔÍê³ÉÍ¬ÑùµÄ¹¦ÄÜ
- * ÐèÒª×¢ÒâµÄÊÇ£¬±ØÐëÒª±ØÐëÒª±ØÐëÒªÊÖ¶¯ÊÍ·ÅËø£¨ÖØÒªµÄÊÂÇéËµÈý±é£©
- * Ê¹ÓÃsynËø¶¨µÄ»°Èç¹ûÓöµ½Òì³££¬jvm»á×Ô¶¯ÊÍ·ÅËø£¬µ«ÊÇlock±ØÐëÊÖ¶¯ÊÍ·ÅËø£¬Òò´Ë¾­³£ÔÚfinallyÖÐ½øÐÐËøµÄÊÍ·Å
+ * ä½¿ç”¨reentrantlockå¯ä»¥å®ŒæˆåŒæ ·çš„åŠŸèƒ½
+ * éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œå¿…é¡»è¦å¿…é¡»è¦å¿…é¡»è¦æ‰‹åŠ¨é‡Šæ”¾é”ï¼ˆé‡è¦çš„äº‹æƒ…è¯´ä¸‰éï¼‰
+ * ä½¿ç”¨syné”å®šçš„è¯å¦‚æžœé‡åˆ°å¼‚å¸¸ï¼Œjvmä¼šè‡ªåŠ¨é‡Šæ”¾é”ï¼Œä½†æ˜¯lockå¿…é¡»æ‰‹åŠ¨é‡Šæ”¾é”ï¼Œå› æ­¤ç»å¸¸åœ¨finallyä¸­è¿›è¡Œé”çš„é‡Šæ”¾
  * @author mashibing
  */
 package com.mashibing.juc.c_020;

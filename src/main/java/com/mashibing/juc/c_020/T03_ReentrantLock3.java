@@ -1,13 +1,13 @@
 /**
- * reentrantlockÓÃÓÚÌæ´úsynchronized
- * ÓÉÓÚm1Ëø¶¨this,Ö»ÓÐm1Ö´ÐÐÍê±ÏµÄÊ±ºò,m2²ÅÄÜÖ´ÐÐ
- * ÕâÀïÊÇ¸´Ï°synchronized×îÔ­Ê¼µÄÓïÒå
+ * reentrantlockç”¨äºŽæ›¿ä»£synchronized
+ * ç”±äºŽm1é”å®šthis,åªæœ‰m1æ‰§è¡Œå®Œæ¯•çš„æ—¶å€™,m2æ‰èƒ½æ‰§è¡Œ
+ * è¿™é‡Œæ˜¯å¤ä¹ synchronizedæœ€åŽŸå§‹çš„è¯­ä¹‰
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔÍê³ÉÍ¬ÑùµÄ¹¦ÄÜ
- * ÐèÒª×¢ÒâµÄÊÇ£¬±ØÐëÒª±ØÐëÒª±ØÐëÒªÊÖ¶¯ÊÍ·ÅËø£¨ÖØÒªµÄÊÂÇéËµÈý±é£©
- * Ê¹ÓÃsynËø¶¨µÄ»°Èç¹ûÓöµ½Òì³££¬jvm»á×Ô¶¯ÊÍ·ÅËø£¬µ«ÊÇlock±ØÐëÊÖ¶¯ÊÍ·ÅËø£¬Òò´Ë¾­³£ÔÚfinallyÖÐ½øÐÐËøµÄÊÍ·Å
+ * ä½¿ç”¨reentrantlockå¯ä»¥å®ŒæˆåŒæ ·çš„åŠŸèƒ½
+ * éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œå¿…é¡»è¦å¿…é¡»è¦å¿…é¡»è¦æ‰‹åŠ¨é‡Šæ”¾é”ï¼ˆé‡è¦çš„äº‹æƒ…è¯´ä¸‰éï¼‰
+ * ä½¿ç”¨syné”å®šçš„è¯å¦‚æžœé‡åˆ°å¼‚å¸¸ï¼Œjvmä¼šè‡ªåŠ¨é‡Šæ”¾é”ï¼Œä½†æ˜¯lockå¿…é¡»æ‰‹åŠ¨é‡Šæ”¾é”ï¼Œå› æ­¤ç»å¸¸åœ¨finallyä¸­è¿›è¡Œé”çš„é‡Šæ”¾
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔ½øÐÐ¡°³¢ÊÔËø¶¨¡±tryLock£¬ÕâÑùÎÞ·¨Ëø¶¨£¬»òÕßÔÚÖ¸¶¨Ê±¼äÄÚÎÞ·¨Ëø¶¨£¬Ïß³Ì¿ÉÒÔ¾ö¶¨ÊÇ·ñ¼ÌÐøµÈ´ý
+ * ä½¿ç”¨reentrantlockå¯ä»¥è¿›è¡Œâ€œå°è¯•é”å®šâ€tryLockï¼Œè¿™æ ·æ— æ³•é”å®šï¼Œæˆ–è€…åœ¨æŒ‡å®šæ—¶é—´å†…æ— æ³•é”å®šï¼Œçº¿ç¨‹å¯ä»¥å†³å®šæ˜¯å¦ç»§ç»­ç­‰å¾…
  * @author mashibing
  */
 package com.mashibing.juc.c_020;
@@ -35,9 +35,9 @@ public class T03_ReentrantLock3 {
 	}
 
 	/**
-	 * Ê¹ÓÃtryLock½øÐÐ³¢ÊÔËø¶¨£¬²»¹ÜËø¶¨Óë·ñ£¬·½·¨¶¼½«¼ÌÐøÖ´ÐÐ
-	 * ¿ÉÒÔ¸ù¾ÝtryLockµÄ·µ»ØÖµÀ´ÅÐ¶¨ÊÇ·ñËø¶¨
-	 * Ò²¿ÉÒÔÖ¸¶¨tryLockµÄÊ±¼ä£¬ÓÉÓÚtryLock(time)Å×³öÒì³££¬ËùÒÔÒª×¢ÒâunclockµÄ´¦Àí£¬±ØÐë·Åµ½finallyÖÐ
+	 * ä½¿ç”¨tryLockè¿›è¡Œå°è¯•é”å®šï¼Œä¸ç®¡é”å®šä¸Žå¦ï¼Œæ–¹æ³•éƒ½å°†ç»§ç»­æ‰§è¡Œ
+	 * å¯ä»¥æ ¹æ®tryLockçš„è¿”å›žå€¼æ¥åˆ¤å®šæ˜¯å¦é”å®š
+	 * ä¹Ÿå¯ä»¥æŒ‡å®štryLockçš„æ—¶é—´ï¼Œç”±äºŽtryLock(time)æŠ›å‡ºå¼‚å¸¸ï¼Œæ‰€ä»¥è¦æ³¨æ„unclockçš„å¤„ç†ï¼Œå¿…é¡»æ”¾åˆ°finallyä¸­
 	 */
 	void m2() {
 		/*

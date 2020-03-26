@@ -1,13 +1,13 @@
 /**
- * ÓĞNÕÅ»ğ³µÆ±£¬Ã¿ÕÅÆ±¶¼ÓĞÒ»¸ö±àºÅ
- * Í¬Ê±ÓĞ10¸ö´°¿Ú¶ÔÍâÊÛÆ±
- * ÇëĞ´Ò»¸öÄ£Äâ³ÌĞò
+ * æœ‰Nå¼ ç«è½¦ç¥¨ï¼Œæ¯å¼ ç¥¨éƒ½æœ‰ä¸€ä¸ªç¼–å·
+ * åŒæ—¶æœ‰10ä¸ªçª—å£å¯¹å¤–å”®ç¥¨
+ * è¯·å†™ä¸€ä¸ªæ¨¡æ‹Ÿç¨‹åº
  * 
- * ·ÖÎöÏÂÃæµÄ³ÌĞò¿ÉÄÜ»á²úÉúÄÄĞ©ÎÊÌâ£¿
- * ÖØ¸´ÏúÊÛ£¿³¬Á¿ÏúÊÛ£¿
+ * åˆ†æä¸‹é¢çš„ç¨‹åºå¯èƒ½ä¼šäº§ç”Ÿå“ªäº›é—®é¢˜ï¼Ÿ
+ * é‡å¤é”€å”®ï¼Ÿè¶…é‡é”€å”®ï¼Ÿ
  * 
  * 
- * @author ÂíÊ¿±ø
+ * @author é©¬å£«å…µ
  */
 package com.mashibing.juc.c_024_FromVectorToQueue;
 
@@ -18,7 +18,7 @@ public class TicketSeller1 {
 	static List<String> tickets = new ArrayList<>();
 	
 	static {
-		for(int i=0; i<10000; i++) tickets.add("Æ±±àºÅ£º" + i);
+		for(int i=0; i<10000; i++) tickets.add("ç¥¨ç¼–å·ï¼š" + i);
 	}
 	
 	
@@ -27,7 +27,7 @@ public class TicketSeller1 {
 		for(int i=0; i<10; i++) {
 			new Thread(()->{
 				while(tickets.size() > 0) {
-					System.out.println("ÏúÊÛÁË--" + tickets.remove(0));
+					System.out.println("é”€å”®äº†--" + tickets.remove(0));
 				}
 			}).start();
 		}

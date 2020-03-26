@@ -15,6 +15,6 @@ public class TestReentrantLock {
 
         lock.unlock();
 
-        //synchronized 程序员的丽春院 JUC
+        //synchronized 绋嬪簭鍛樼殑涓芥槬闄� JUC
     }
 }

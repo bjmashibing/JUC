@@ -1,9 +1,9 @@
 /**
- * Ôø¾­µÄÃæÊÔÌâ£º£¨ÌÔ±¦£¿£©
- * ÊµÏÖÒ»¸öÈÝÆ÷£¬Ìá¹©Á½¸ö·½·¨£¬add£¬size
- * Ð´Á½¸öÏß³Ì£¬Ïß³Ì1Ìí¼Ó10¸öÔªËØµ½ÈÝÆ÷ÖÐ£¬Ïß³Ì2ÊµÏÖ¼à¿ØÔªËØµÄ¸öÊý£¬µ±¸öÊýµ½5¸öÊ±£¬Ïß³Ì2¸ø³öÌáÊ¾²¢½áÊø
+ * æ›¾ç»çš„é¢è¯•é¢˜ï¼šï¼ˆæ·˜å®ï¼Ÿï¼‰
+ * å®žçŽ°ä¸€ä¸ªå®¹å™¨ï¼Œæä¾›ä¸¤ä¸ªæ–¹æ³•ï¼Œaddï¼Œsize
+ * å†™ä¸¤ä¸ªçº¿ç¨‹ï¼Œçº¿ç¨‹1æ·»åŠ 10ä¸ªå…ƒç´ åˆ°å®¹å™¨ä¸­ï¼Œçº¿ç¨‹2å®žçŽ°ç›‘æŽ§å…ƒç´ çš„ä¸ªæ•°ï¼Œå½“ä¸ªæ•°åˆ°5ä¸ªæ—¶ï¼Œçº¿ç¨‹2ç»™å‡ºæç¤ºå¹¶ç»“æŸ
  * 
- * ·ÖÎöÏÂÃæÕâ¸ö³ÌÐò£¬ÄÜÍê³ÉÕâ¸ö¹¦ÄÜÂð£¿
+ * åˆ†æžä¸‹é¢è¿™ä¸ªç¨‹åºï¼Œèƒ½å®Œæˆè¿™ä¸ªåŠŸèƒ½å—ï¼Ÿ
  * @author mashibing
  */
 package com.mashibing.juc.c_020_01_Interview;
@@ -47,7 +47,7 @@ public class T01_WithoutVolatile {
 					break;
 				}
 			}
-			System.out.println("t2 ½áÊø");
+			System.out.println("t2 ç»“æŸ");
 		}, "t2").start();
 	}
 }

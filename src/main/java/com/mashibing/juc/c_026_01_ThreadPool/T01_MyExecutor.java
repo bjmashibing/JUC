@@ -1,5 +1,5 @@
 /**
- * 认识Executor
+ * 璁よ瘑Executor
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 

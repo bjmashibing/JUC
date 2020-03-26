@@ -1,5 +1,5 @@
 /**
- * volatile 引用类型（包括数组）只能保证引用本身的可见性，不能保证内部字段的可见性
+ * volatile 寮曠敤绫诲瀷锛堝寘鎷暟缁勶級鍙兘淇濊瘉寮曠敤鏈韩鐨勫彲瑙佹�э紝涓嶈兘淇濊瘉鍐呴儴瀛楁鐨勫彲瑙佹��
  */
 package com.mashibing.juc.c_012_Volatile;
 
@@ -28,7 +28,7 @@ public class T02_VolatileReference1 {
     public static void main(String[] args) {
         new Thread(T::m, "t1").start();
 
-        //lambda表达式 new Thread(new Runnable( run() {m()}
+        //lambda琛ㄨ揪寮� new Thread(new Runnable( run() {m()}
 
         try {
             TimeUnit.SECONDS.sleep(1);

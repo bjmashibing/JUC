@@ -1,7 +1,7 @@
 /**
- * synchronized优化
- * 同步代码块中的语句越少越好
- * 比较m1和m2
+ * synchronized浼樺寲
+ * 鍚屾浠ｇ爜鍧椾腑鐨勮鍙ヨ秺灏戣秺濂�
+ * 姣旇緝m1鍜宮2
  * @author mashibing
  */
 package com.mashibing.juc.c_016_LockOptimization;
@@ -20,7 +20,7 @@ public class FineCoarseLock {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		//业务逻辑中只有下面这句需要sync，这时不应该给整个方法上锁
+		//涓氬姟閫昏緫涓彧鏈変笅闈㈣繖鍙ラ渶瑕乻ync锛岃繖鏃朵笉搴旇缁欐暣涓柟娉曚笂閿�
 		count ++;
 		
 		//do sth need not sync
@@ -38,8 +38,8 @@ public class FineCoarseLock {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		//业务逻辑中只有下面这句需要sync，这时不应该给整个方法上锁
-		//采用细粒度的锁，可以使线程争用时间变短，从而提高效率
+		//涓氬姟閫昏緫涓彧鏈変笅闈㈣繖鍙ラ渶瑕乻ync锛岃繖鏃朵笉搴旇缁欐暣涓柟娉曚笂閿�
+		//閲囩敤缁嗙矑搴︾殑閿侊紝鍙互浣跨嚎绋嬩簤鐢ㄦ椂闂村彉鐭紝浠庤�屾彁楂樻晥鐜�
 		synchronized(this) {
 			count ++;
 		}

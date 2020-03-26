@@ -14,13 +14,13 @@ public class T06_00_sync_wait_notify {
                     System.out.print(c);
                     try {
                         o.notify();
-                        o.wait(); //让出锁
+                        o.wait(); //璁╁嚭閿�
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
 
-                o.notify(); //必须，否则无法停止程序
+                o.notify(); //蹇呴』锛屽惁鍒欐棤娉曞仠姝㈢▼搴�
             }
 
         }, "t1").start();
@@ -43,4 +43,4 @@ public class T06_00_sync_wait_notify {
     }
 }
 
-//如果我想保证t2在t1之前打印，也就是说保证首先输出的是A而不是1，这个时候该如何做？
+//濡傛灉鎴戞兂淇濊瘉t2鍦╰1涔嬪墠鎵撳嵃锛屼篃灏辨槸璇翠繚璇侀鍏堣緭鍑虹殑鏄疉鑰屼笉鏄�1锛岃繖涓椂鍊欒濡備綍鍋氾紵

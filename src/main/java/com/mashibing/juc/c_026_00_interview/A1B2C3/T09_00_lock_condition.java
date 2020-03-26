@@ -1,5 +1,5 @@
 /*
-Condition本质是锁资源上不同的等待队列
+Condition鏈川鏄攣璧勬簮涓婁笉鍚岀殑绛夊緟闃熷垪
  */
 package com.mashibing.juc.c_026_00_interview.A1B2C3;
 

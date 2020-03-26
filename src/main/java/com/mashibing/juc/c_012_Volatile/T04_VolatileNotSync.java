@@ -1,6 +1,6 @@
 /**
- * volatile²¢²»ÄÜ±£Ö¤¶à¸öÏß³Ì¹²Í¬ĞŞ¸Ärunning±äÁ¿Ê±Ëù´øÀ´µÄ²»Ò»ÖÂÎÊÌâ£¬Ò²¾ÍÊÇËµvolatile²»ÄÜÌæ´úsynchronized
- * ÔËĞĞÏÂÃæµÄ³ÌĞò£¬²¢·ÖÎö½á¹û
+ * volatileå¹¶ä¸èƒ½ä¿è¯å¤šä¸ªçº¿ç¨‹å…±åŒä¿®æ”¹runningå˜é‡æ—¶æ‰€å¸¦æ¥çš„ä¸ä¸€è‡´é—®é¢˜ï¼Œä¹Ÿå°±æ˜¯è¯´volatileä¸èƒ½æ›¿ä»£synchronized
+ * è¿è¡Œä¸‹é¢çš„ç¨‹åºï¼Œå¹¶åˆ†æç»“æœ
  * @author mashibing
  */
 package com.mashibing.juc.c_012_Volatile;
